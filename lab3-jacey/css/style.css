@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffdfef;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.city {
+  font-weight: bold;
+}
+.cost {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+caption {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+th,
+td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e4aac8;
+  font-weight: bold;
+}
+
+img {
+  width: 120px;
+  height: 70px;
+  background-color: #dddddd;
+  border: 1px solid #bbbbbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #e4aac8;
+}
+.Total-Cost {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+}

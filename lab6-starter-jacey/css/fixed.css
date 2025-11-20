@@ -1,0 +1,36 @@
+h1 {
+  border: 5px;
+  border-style: dotted;
+  border-color: blue;
+  width: 150px;
+  margin: auto;
+}
+#one {
+  padding: 50px;
+  background-color: lavender;
+}
+#two {
+  width: 160px;
+  margin: 30px;
+  border: 5px;
+  border-style: dotted;
+  border-color: blue;
+}
+#three {
+  text-align: right;
+  border: 5px;
+  border-style: dashed;
+  border-color: brown;
+  margin-right: 200px;
+  margin-bottom: 0px;
+}
+#four {
+  margin: 0 auto;
+  width: 600px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+}
+img {
+  width: 600px;
+}

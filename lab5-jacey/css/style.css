@@ -1,0 +1,116 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #4a3f72;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.tagline {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* Nav */
+nav {
+  background-color: #2e2750;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main*/
+main {
+  padding: 2rem;
+}
+
+/* Section */
+h2 {
+  color: #4a3f72;
+  border-bottom: 2px solid #4a3f72;
+  padding-bottom: 0.2rem;
+}
+
+/* ARTICLES & INFO */
+article {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #4a3f72;
+  display: inline-block;
+}
+
+/* class selector */
+.info {
+  background-color: #eeeaf8;
+  padding: 5px;
+  border-left: 5px solid #4a3f72;
+  display: inline-block;
+}
+
+/* FEATURED BOOK CARDS */
+.book {
+  max-width: 300px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.book img {
+  width: 100%;
+}
+
+/* staff picks */
+#staffpicks {
+  background-color: #e7e4f5;
+  padding: 5px;
+  border-left: 5px solid #4a3f72;
+}
+
+/* events */
+#events {
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.event {
+  background-color: white;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4a3f72;
+  color: white;
+  margin-top: 2rem;
+}
