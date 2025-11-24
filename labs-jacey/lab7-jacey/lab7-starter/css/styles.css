@@ -1,0 +1,33 @@
+/* Jacey Rowland, Lab 7, File Creation: 2025-11-24 */
+
+@charset "utf-8";
+body {
+  background-color: darksalmon;
+}
+header nav {
+  background-color: cornflowerblue;
+}
+header nav ul li a {
+  color: white;
+}
+
+.horizontal .row li {
+  background-color: darkblue;
+}
+
+.horizontal .row li a {
+  color: white;
+}
+
+main,
+section,
+aside,
+img,
+p,
+div {
+  background-color: bisque;
+}
+
+footer {
+  background-color: cornflowerblue;
+}

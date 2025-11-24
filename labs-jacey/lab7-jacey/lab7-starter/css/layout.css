@@ -1,0 +1,90 @@
+/* Jacey Rowland, Lab 7, File Creation: 2025-11-24 */
+
+@charset "utf-8";
+body {
+  width: 80%;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+/* header logo */
+
+header #logo {
+  float: left;
+  width: 75%;
+}
+
+/* vertical nav */
+
+header nav .vertical {
+  float: left;
+  width: 25%;
+}
+
+header .vertical ul li {
+  padding-top: 3px;
+  padding-bottom: 20px;
+}
+
+header .vertical ul li a {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* Horizontal Nav */
+
+nav.horizontal {
+  clear: both;
+}
+
+nav.horizontal ul li {
+  float: left;
+  width: 12.5%;
+}
+
+nav.horizontal ul li a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Main */
+/* Clear after horizontal nav to prevent float overlap  */
+main {
+  clear: both;
+  padding-top: 20px;
+}
+
+/* Sections  */
+
+main section {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+main section img {
+  width: 50%;
+}
+
+/* Divs  */
+
+#leftAside,
+#rightAside {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+#leftAside aside,
+#rightAside aside {
+  margin-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+  clear: both;
+  padding: 20px 0;
+  text-align: center;
+}
